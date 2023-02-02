@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+}
+.raindrop {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: purple;
+  transform: rotate(0deg);
+  animation: fall 5s linear infinite;
+}
+@keyframes fall{
+    from{
+        top: 0%;
+    }
+    to{
+        top: 100%;
+    }
+}
